@@ -18,7 +18,7 @@ import com.project.SafarBackend.service.BookingService;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://safarvoyage.netlify.app/")
 @RequestMapping("/api/booking")
 public class BookingController {
 

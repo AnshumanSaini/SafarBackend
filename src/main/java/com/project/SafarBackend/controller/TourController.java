@@ -22,7 +22,7 @@ import com.project.SafarBackend.service.TourService;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://safarvoyage.netlify.app/")
 @RequestMapping("/api/pin")	
 public class TourController {
 	

@@ -12,7 +12,7 @@ import com.project.SafarBackend.model.Client;
 import com.project.SafarBackend.service.ClientService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://safarvoyage.netlify.app/")
 @RequestMapping("/api/client")	
 public class ClientController {
 

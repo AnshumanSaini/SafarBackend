@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.project.SafarBackend.service.AuthService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://safarvoyage.netlify.app/")
 @RequestMapping("/api/auth")
 public class AuthController {
 
